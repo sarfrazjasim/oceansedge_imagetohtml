@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century gothic;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*header start*/
+
+.header {
+    background-color: #121b2a;
+    min-height: 100px;
+    overflow: hidden;
+    border-bottom: 1px solid #0a0e17;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    margin-top: 5px;
+}
+
+.nav {
+    width: 70%;
+    float: right;
+    margin-top: 40px;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: century gothic;
+	padding-left: 53px;
+}
+
+.nav ul li a:hover{
+    color: #0079BD;
+}
+
+/*header end*/
+
+/*banner section start*/
+
+.banner{
+    background-image: url(../img/banner.png);
+    min-height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner_text{
+    padding-top: 200px;
+}
+
+.banner_text h3{
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.banner_text h1{
+	color: #0075ba;
+	font-size: 45px;
+}
+
+.banner_text p{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.banner_text button{
+	background: #ffffff;
+	padding: 0px 30px;
+	font-size: 25px;
+	border: none;
+	margin-top: 40px;
+	border-radius: 5px;
+    width: 250px;
+    height: 60px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.banner_text button:hover{
+    background: #0075ba;
+    color: #ffffff;
+}
+
+/*service area start*/
+
+.service_area {
+    background: #121b2c;
+    min-height: 330px;
+    overflow: hidden;
+}
+
+.service_section {
+    overflow: hidden;
+    padding-top: 35px;
+}
+
+.service {
+    width: 28%;
+    border-right: 1px solid #1d263f;
+    float: left;
+    margin: 15px;
+    padding-right: 25px;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.content_icon {
+    width: 20%;
+    float: left;
+}
+
+.content_text {
+    width: 75%;
+    float: right;
+    padding-top: 10px;
+}
+
+.content_text h4{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.content_text h3{
+    color: #0075ba;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.service p{
+	color: #ffffff;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.service:last-child{
+    border-right: none;
+}
+
+/*service area end*/
+
+/*testimonial area start*/
+
+.testimonial_area{
+    background: #040811;
+    min-height: 280px;
+    overflow: hidden;
+}
+
+.testimonial_section{
+    overflow: hidden;
+    padding-top: 28px;
+}
+
+.contact{
+    width: 28%;
+    float: left;
+    margin: 15px;
+    padding-right: 25px;
+    color: #ffffff;
+}
+
+.contact_title h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact_title span{
+    color: #0075ba;
+    font-weight: bold;
+}
+
+.contact .address_main{
+	font-size: 18px;
+	padding-top: 25px;
+}
+
+.contact .address_main .address{
+    padding-top: 15px;
+}
+
+.contact .address_main .address p{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.contact .title_size h4{
+    font-size: 20px;
+}
+
+.contact .contact_bg{
+    background: #0c1019;
+    width: 289px;
+    height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact .contact_title p{
+    padding-top: 15px;
+}
+
+.contact .client_name{
+    padding-top: 10px;
+}
+
+.contact .client_name p{
+    font-size: 15px;
+}
+
+.contact_image{
+    width: 40%;
+    float: left;
+}
+
+.contact_image_title{
+    float: right;
+    width: 60%;
+    font-size: 15px;
+}
+
+.contact_image_title h5{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact_image_title h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0075ba;
+}
+
+.contact button{
+    height: 35px;
+    width: 130px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.contact button:hover{
+    background: #0075ba;
+    color: #ffffff;
+}
+
+
+/*testimonial area end*/
+
+
+/*footer area start*/
+
+.footer{
+    background: #121b2c;
+    min-width: 300px;
+    overflow: hidden;
+}
+
+.footer_nav{
+    width: 60%;
+    float: left;
+}
+
+.footer_content{
+    padding-top: 20px;
+}
+
+.footer_nav ul{
+    list-style: none;
+}
+
+.footer_nav ul li{
+    float: left;
+}
+
+.footer_nav ul li a{
+    text-decoration: none;
+	color: #ffffff;
+	font-size: 15px;
+	padding-left: 25px;
+}
+
+.footer_nav p{
+    color: #ffffff;
+    padding-top: 30px;
+    padding-left: 23px;
+    font-size: 15px;
+    
+}
+.footer_logo{
+    float: right;
+    width: 30%;
+}
+
+
+/*footer area end*/
+
+
+
+
+
+
+
+
+
+
